@@ -1,3 +1,4 @@
+import ssl
 from django.db import models
 
 # Create your models here.
@@ -8,3 +9,5 @@ class SlackUser(models.Model):
     backend = models.BooleanField()
     age = models.IntegerField()
     bio = models.TextField()
+    
+    ssl
