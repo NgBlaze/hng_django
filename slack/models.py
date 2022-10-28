@@ -10,4 +10,3 @@ class SlackUser(models.Model):
     age = models.IntegerField()
     bio = models.TextField()
     
-    ssl
